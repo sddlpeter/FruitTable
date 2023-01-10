@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/fruitTbl.css">
+        <script type="text/javascript" src="js/fruitTbl.js"></script>
+    </head>
+    <body>
+        <div id="div_container">
+            <div id="div_fruit_list">
+                <table id="tbl_fruit">
+                    <tr>
+                        <th class="tbl_header">名称</th>
+                        <th class="tbl_header">单价</th>
+                        <th class="tbl_header">数量</th>
+                        <th class="tbl_header">小计</th>
+                        <th class="tbl_header">操作</th>
+                    </tr>
+                    <tr>
+                        <td>苹果</th>
+                        <td>5</th>
+                        <td>20</th>
+                        <td>100</th>
+                        <td><img src="img/delete.png" class="delImg"></th>
+                    </tr>
+                    <tr>
+                        <td>西瓜</td>
+                        <td>3</td>
+                        <td>20</td>
+                        <td>60</td>
+                        <td><img src="img/delete.png" class="delImg"></td>
+                    </tr>
+                    <tr>
+                        <td>菠萝</td>
+                        <td>4</td>
+                        <td>25</td>
+                        <td>100</td>
+                        <td><img src="img/delete.png" class="delImg"></td>
+                    </tr>
+                    <tr>
+                        <td>榴莲</td>
+                        <td>3</td>
+                        <td>30</td>
+                        <td>90</td>
+                        <td><img src="img/delete.png" class="delImg"></td>
+                    </tr>
+                    <tr>
+                        <td>总计</td>
+                        <td colspan="4">999</td>
+                    </tr>
+                </table>
+                <hr/>
+                <div id="add_fruit_div">
+                    <table id="add_fruit_tbl">
+                        <tr>
+                            <td class="w30">名称：</td>
+                            <td><input class="input" type="text" id="fname"/></td>
+                        </tr>
+                        <tr>
+                            <td>单价：</td>
+                            <td><input class="input" type="text" id="price"/></td>
+                        </tr>
+                        <tr>
+                            <td>数量：</td>
+                            <td><input class="input" type="text" id="fcount"/></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <input id="addBtn" type="button" class="btn" value="添加"/>
+                                <input type="button" class="btn" value="重填"/>
+                            </th>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
